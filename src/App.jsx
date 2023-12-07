@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,4 +32,27 @@ function App() {
   )
 }
 
-export default App
+export default App */
+
+import { BrowserRouter } from 'react-router-dom'
+import './App.css'
+import Links from './components/Links'
+// import Hero from './components/hero'
+// import LinkInput from './components/linkinput'
+
+// import Navigation from './components/navigation'
+
+function App() {
+  
+
+  return (
+    <>
+    <BrowserRouter>
+      <Links/>
+    </BrowserRouter>
+    
+    </>
+  )
+}
+
+export default App;
